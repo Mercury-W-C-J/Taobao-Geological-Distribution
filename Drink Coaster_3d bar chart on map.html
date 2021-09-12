@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="3ddac1fbc0df4c33b8143b23d7fd9791" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_3ddac1fbc0df4c33b8143b23d7fd9791 = echarts.init(
+            document.getElementById('3ddac1fbc0df4c33b8143b23d7fd9791'), 'white', {renderer: 'canvas'});
+        var option_3ddac1fbc0df4c33b8143b23d7fd9791 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar3D",
+            "name": "Sales",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 0.95,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "minHeight": 0.01,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.4737,
+                        31.23037,
+                        5161.25
+                    ]
+                },
+                {
+                    "name": "\u6cc9\u5dde",
+                    "value": [
+                        118.67587,
+                        24.87389,
+                        2154.5
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": [
+                        113.26436,
+                        23.12908,
+                        2991.5
+                    ]
+                },
+                {
+                    "name": "\u676d\u5dde",
+                    "value": [
+                        120.15515,
+                        30.27415,
+                        11725.75
+                    ]
+                },
+                {
+                    "name": "\u91d1\u534e",
+                    "value": [
+                        119.64759,
+                        29.07812,
+                        13413.25
+                    ]
+                },
+                {
+                    "name": "\u6df1\u5733",
+                    "value": [
+                        114.05956,
+                        22.54286,
+                        3545.25
+                    ]
+                },
+                {
+                    "name": "\u5b81\u6ce2",
+                    "value": [
+                        121.55027,
+                        29.87386,
+                        5899.5
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.40717,
+                        39.90469,
+                        1689.0
+                    ]
+                },
+                {
+                    "name": "\u6f6e\u5dde",
+                    "value": [
+                        116.62296,
+                        23.6567,
+                        3575.75
+                    ]
+                },
+                {
+                    "name": "\u53a6\u95e8",
+                    "value": [
+                        118.08948,
+                        24.47951,
+                        454.25
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5dde",
+                    "value": [
+                        120.08805,
+                        30.89305,
+                        488.0
+                    ]
+                },
+                {
+                    "name": "\u6e29\u5dde",
+                    "value": [
+                        120.69939,
+                        27.99492,
+                        655.0
+                    ]
+                },
+                {
+                    "name": "\u4e1c\u839e",
+                    "value": [
+                        113.75179,
+                        23.02067,
+                        1028.0
+                    ]
+                },
+                {
+                    "name": "\u6210\u90fd",
+                    "value": [
+                        104.06476,
+                        30.5702,
+                        338.75
+                    ]
+                },
+                {
+                    "name": "\u53f0\u5dde",
+                    "value": [
+                        121.42056,
+                        28.65611,
+                        1609.5
+                    ]
+                },
+                {
+                    "name": "\u626c\u5dde",
+                    "value": [
+                        119.41269,
+                        32.39358,
+                        237.75
+                    ]
+                },
+                {
+                    "name": "\u82cf\u5dde",
+                    "value": [
+                        120.58319,
+                        31.29834,
+                        515.5
+                    ]
+                },
+                {
+                    "name": "\u90d1\u5dde",
+                    "value": [
+                        113.62493,
+                        34.74725,
+                        471.75
+                    ]
+                },
+                {
+                    "name": "\u4e3d\u6c34",
+                    "value": [
+                        119.92293,
+                        28.4672,
+                        969.75
+                    ]
+                },
+                {
+                    "name": "\u5357\u4eac",
+                    "value": [
+                        118.79647,
+                        32.05838,
+                        280.25
+                    ]
+                },
+                {
+                    "name": "\u666f\u5fb7\u9547",
+                    "value": [
+                        117.17839,
+                        29.26869,
+                        1580.25
+                    ]
+                },
+                {
+                    "name": "\u798f\u5dde",
+                    "value": [
+                        119.29647,
+                        26.07421,
+                        274.0
+                    ]
+                },
+                {
+                    "name": "\u73e0\u6d77",
+                    "value": [
+                        113.57668,
+                        22.27073,
+                        260.0
+                    ]
+                },
+                {
+                    "name": "\u63ed\u9633",
+                    "value": [
+                        116.37271,
+                        23.54972,
+                        651.25
+                    ]
+                },
+                {
+                    "name": "\u6c55\u5934",
+                    "value": [
+                        116.68221,
+                        23.3535,
+                        902.5
+                    ]
+                },
+                {
+                    "name": "\u9632\u57ce\u6e2f",
+                    "value": [
+                        108.35472,
+                        21.68713,
+                        274.0
+                    ]
+                },
+                {
+                    "name": "\u65e0\u9521",
+                    "value": [
+                        120.31237,
+                        31.49099,
+                        179.25
+                    ]
+                },
+                {
+                    "name": "\u4e2d\u5c71",
+                    "value": [
+                        113.3926,
+                        22.51595,
+                        311.5
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": [
+                        106.55073,
+                        29.56471,
+                        192.25
+                    ]
+                },
+                {
+                    "name": "\u5609\u5174",
+                    "value": [
+                        120.7555,
+                        30.74501,
+                        104.25
+                    ]
+                },
+                {
+                    "name": "\u77f3\u5bb6\u5e84",
+                    "value": [
+                        114.5143,
+                        38.04276,
+                        109.5
+                    ]
+                },
+                {
+                    "name": "\u4f5b\u5c71",
+                    "value": [
+                        113.12192,
+                        23.02185,
+                        553.5
+                    ]
+                },
+                {
+                    "name": "\u9752\u5c9b",
+                    "value": [
+                        120.38299,
+                        36.06623,
+                        1007.0
+                    ]
+                },
+                {
+                    "name": "\u957f\u6c99",
+                    "value": [
+                        112.93886,
+                        28.22778,
+                        94.75
+                    ]
+                },
+                {
+                    "name": "\u6d4e\u5357",
+                    "value": [
+                        117.12009,
+                        36.65184,
+                        164.25
+                    ]
+                },
+                {
+                    "name": "\u516d\u5b89",
+                    "value": [
+                        116.52324,
+                        31.73488,
+                        223.75
+                    ]
+                },
+                {
+                    "name": "\u5357\u901a",
+                    "value": [
+                        120.89371,
+                        31.97958,
+                        117.5
+                    ]
+                },
+                {
+                    "name": "\u6606\u660e",
+                    "value": [
+                        102.83322,
+                        24.87966,
+                        44.25
+                    ]
+                },
+                {
+                    "name": "\u5546\u4e18",
+                    "value": [
+                        115.65635,
+                        34.41427,
+                        31.25
+                    ]
+                },
+                {
+                    "name": "\u6b66\u6c49",
+                    "value": [
+                        114.30525,
+                        30.59276,
+                        130.75
+                    ]
+                },
+                {
+                    "name": "\u5f90\u5dde",
+                    "value": [
+                        117.28577,
+                        34.2044,
+                        103.25
+                    ]
+                },
+                {
+                    "name": "\u7ecd\u5174",
+                    "value": [
+                        120.5802,
+                        30.03033,
+                        206.5
+                    ]
+                },
+                {
+                    "name": "\u5927\u8fde",
+                    "value": [
+                        121.61476,
+                        38.91369,
+                        32.75
+                    ]
+                },
+                {
+                    "name": "\u804a\u57ce",
+                    "value": [
+                        115.98549,
+                        36.45702,
+                        30.5
+                    ]
+                },
+                {
+                    "name": "\u5e38\u5dde",
+                    "value": [
+                        119.97365,
+                        31.81072,
+                        572.5
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u95e8",
+                    "value": [
+                        113.08161,
+                        22.57865,
+                        67.5
+                    ]
+                },
+                {
+                    "name": "\u8386\u7530",
+                    "value": [
+                        119.00771,
+                        25.454,
+                        36.25
+                    ]
+                },
+                {
+                    "name": "\u5408\u80a5",
+                    "value": [
+                        117.22901,
+                        31.82057,
+                        63.25
+                    ]
+                },
+                {
+                    "name": "\u9547\u6c5f",
+                    "value": [
+                        119.425,
+                        32.18959,
+                        493.5
+                    ]
+                },
+                {
+                    "name": "\u9633\u6c5f",
+                    "value": [
+                        111.98256,
+                        21.85829,
+                        72.25
+                    ]
+                },
+                {
+                    "name": "\u6f4d\u574a",
+                    "value": [
+                        119.16176,
+                        36.70686,
+                        28.75
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u5b8f",
+                    "value": [
+                        98.58486,
+                        24.43232,
+                        11.75
+                    ]
+                },
+                {
+                    "name": "\u6885\u5dde",
+                    "value": [
+                        116.12264,
+                        24.28844,
+                        47.75
+                    ]
+                },
+                {
+                    "name": "\u90a2\u53f0",
+                    "value": [
+                        114.50443,
+                        37.07055,
+                        62.75
+                    ]
+                },
+                {
+                    "name": "\u6dc4\u535a",
+                    "value": [
+                        118.0548,
+                        36.8131,
+                        63.25
+                    ]
+                },
+                {
+                    "name": "\u6cf0\u5dde",
+                    "value": [
+                        119.92554,
+                        32.45546,
+                        60.0
+                    ]
+                },
+                {
+                    "name": "\u5b89\u5e86",
+                    "value": [
+                        117.06354,
+                        30.54294,
+                        25.75
+                    ]
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": [
+                        126.54944,
+                        43.83784,
+                        133.25
+                    ]
+                },
+                {
+                    "name": "\u5b81\u5fb7",
+                    "value": [
+                        119.54819,
+                        26.66571,
+                        104.5
+                    ]
+                },
+                {
+                    "name": "\u5929\u6d25",
+                    "value": [
+                        117.19937,
+                        39.0851,
+                        39.0
+                    ]
+                },
+                {
+                    "name": "\u70df\u53f0",
+                    "value": [
+                        121.44801,
+                        37.46353,
+                        63.75
+                    ]
+                },
+                {
+                    "name": "\u65e5\u672c",
+                    "value": [
+                        0.0,
+                        0.0,
+                        38.75
+                    ]
+                },
+                {
+                    "name": "\u6c88\u9633",
+                    "value": [
+                        123.4631,
+                        41.67718,
+                        9.25
+                    ]
+                },
+                {
+                    "name": "\u5357\u5e73",
+                    "value": [
+                        118.12043,
+                        27.33175,
+                        107.25
+                    ]
+                },
+                {
+                    "name": "\u83cf\u6cfd",
+                    "value": [
+                        115.48115,
+                        35.23363,
+                        45.0
+                    ]
+                },
+                {
+                    "name": "\u60e0\u5dde",
+                    "value": [
+                        114.41679,
+                        23.11075,
+                        11.75
+                    ]
+                },
+                {
+                    "name": "\u9ec4\u77f3",
+                    "value": [
+                        115.0389,
+                        30.19953,
+                        20.5
+                    ]
+                },
+                {
+                    "name": "\u4e34\u6c82",
+                    "value": [
+                        118.35646,
+                        35.10465,
+                        6.0
+                    ]
+                },
+                {
+                    "name": "\u868c\u57e0",
+                    "value": [
+                        117.38932,
+                        32.91548,
+                        181.75
+                    ]
+                },
+                {
+                    "name": "\u5357\u660c",
+                    "value": [
+                        115.85794,
+                        28.68202,
+                        54.0
+                    ]
+                },
+                {
+                    "name": "\u5d07\u5de6",
+                    "value": [
+                        107.36485,
+                        22.37895,
+                        13.75
+                    ]
+                },
+                {
+                    "name": "\u5a01\u6d77",
+                    "value": [
+                        122.12171,
+                        37.51348,
+                        6.75
+                    ]
+                },
+                {
+                    "name": "\u94a6\u5dde",
+                    "value": [
+                        108.65431,
+                        21.9797,
+                        103.25
+                    ]
+                },
+                {
+                    "name": "\u8fde\u4e91\u6e2f",
+                    "value": [
+                        119.22295,
+                        34.59669,
+                        25.25
+                    ]
+                },
+                {
+                    "name": "\u8302\u540d",
+                    "value": [
+                        110.92523,
+                        21.66329,
+                        28.75
+                    ]
+                },
+                {
+                    "name": "\u56db\u5e73",
+                    "value": [
+                        124.35036,
+                        43.16646,
+                        13.0
+                    ]
+                },
+                {
+                    "name": "\u90f4\u5dde",
+                    "value": [
+                        113.01485,
+                        25.77063,
+                        7.0
+                    ]
+                },
+                {
+                    "name": "\u6ca7\u5dde",
+                    "value": [
+                        116.83869,
+                        38.30441,
+                        5.5
+                    ]
+                },
+                {
+                    "name": "\u90af\u90f8",
+                    "value": [
+                        114.53918,
+                        36.62556,
+                        5.5
+                    ]
+                },
+                {
+                    "name": "\u6f33\u5dde",
+                    "value": [
+                        117.64725,
+                        24.51347,
+                        8.25
+                    ]
+                },
+                {
+                    "name": "\u7126\u4f5c",
+                    "value": [
+                        113.24201,
+                        35.21563,
+                        60.5
+                    ]
+                },
+                {
+                    "name": "\u5409\u5b89",
+                    "value": [
+                        114.99376,
+                        27.11382,
+                        50.0
+                    ]
+                },
+                {
+                    "name": "\u682a\u6d32",
+                    "value": [
+                        113.13396,
+                        27.82767,
+                        37.25
+                    ]
+                },
+                {
+                    "name": "\u957f\u6625",
+                    "value": [
+                        125.32357,
+                        43.81602,
+                        4.75
+                    ]
+                },
+                {
+                    "name": "\u745e\u5178",
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.5
+                    ]
+                },
+                {
+                    "name": "\u4fdd\u5b9a",
+                    "value": [
+                        115.46459,
+                        38.87396,
+                        2.0
+                    ]
+                },
+                {
+                    "name": "\u5b9c\u5bbe",
+                    "value": [
+                        104.6417,
+                        28.7513,
+                        13.0
+                    ]
+                },
+                {
+                    "name": "\u5510\u5c71",
+                    "value": [
+                        118.18058,
+                        39.63048,
+                        11.5
+                    ]
+                },
+                {
+                    "name": "\u846b\u82a6\u5c9b",
+                    "value": [
+                        120.83699,
+                        40.711,
+                        1.5
+                    ]
+                },
+                {
+                    "name": "\u897f\u5b89",
+                    "value": [
+                        108.93984,
+                        34.34127,
+                        5.75
+                    ]
+                },
+                {
+                    "name": "\u592a\u539f",
+                    "value": [
+                        112.556252,
+                        37.876876,
+                        4.5
+                    ]
+                },
+                {
+                    "name": "\u743c\u6d77",
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.75
+                    ]
+                },
+                {
+                    "name": "\u6d4e\u5b81",
+                    "value": [
+                        116.58724,
+                        35.41459,
+                        76.75
+                    ]
+                },
+                {
+                    "name": "\u5468\u53e3",
+                    "value": [
+                        114.69695,
+                        33.62583,
+                        4.5
+                    ]
+                },
+                {
+                    "name": "\u5357\u5b81",
+                    "value": [
+                        108.3669,
+                        22.81673,
+                        6.75
+                    ]
+                },
+                {
+                    "name": "\u5eca\u574a",
+                    "value": [
+                        116.68376,
+                        39.53775,
+                        7.25
+                    ]
+                },
+                {
+                    "name": "\u4e5d\u6c5f",
+                    "value": [
+                        116.00146,
+                        29.70548,
+                        1.75
+                    ]
+                },
+                {
+                    "name": "\u968f\u5dde",
+                    "value": [
+                        113.38262,
+                        31.69013,
+                        6.0
+                    ]
+                },
+                {
+                    "name": "\u4e09\u660e",
+                    "value": [
+                        117.63922,
+                        26.26385,
+                        5.0
+                    ]
+                }
+            ],
+            "shading": "realistic",
+            "colorMaterial": "rgba(0,0,0,0)",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Sales"
+            ],
+            "selected": {
+                "Sales": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "geo3D": {
+        "map": "china",
+        "boxWidth": 100,
+        "boxHeight": 10,
+        "regionHeight": 3,
+        "groundPlane": {
+            "show": false,
+            "color": "#aaa"
+        },
+        "instancing": false,
+        "itemStyle": {
+            "color": "#13294B",
+            "borderColor": "#F9F3EF",
+            "borderWidth": 0.5,
+            "opacity": 1
+        },
+        "label": {
+            "show": false,
+            "formatter": function(data){return data.name +  + data.value[2];}
+        },
+        "emphasis": {
+            "label": {
+                "show": false,
+                "position": "top",
+                "color": "#fff",
+                "margin": 8,
+                "fontSize": 10,
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        },
+        "light": {
+            "main": {
+                "color": "#fff",
+                "intensity": 1.2,
+                "shadow": false,
+                "shadowQuality": "high",
+                "alpha": 40,
+                "beta": 10
+            },
+            "ambient": {
+                "color": "#fff",
+                "intensity": 0.3
+            },
+            "ambientCubemap": {
+                "diffuseIntensity": 0.5,
+                "specularIntensity": 0.5
+            }
+        },
+        "temporalSuperSampling": {
+            "enable": "auto"
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "width": "auto",
+        "height": "auto"
+    },
+    "title": [
+        {
+            "text": "Sales of different cities",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_3ddac1fbc0df4c33b8143b23d7fd9791.setOption(option_3ddac1fbc0df4c33b8143b23d7fd9791);
+    </script>
+</body>
+</html>
